@@ -1,0 +1,22 @@
+{% comment %}<!--
+The status_tag include is a helper to display development status in a color sensitive manner.
+Usage:
+  1) assign the 'status_tag` variable to one of:
+        planning, development, stable, on hold, prototype.
+  2) include coder/status_tag
+  example:
+    <ul>
+      {% assign status_tag = 'planning' %}
+      {% include coder/status_tag %}
+  	</ul>
+-->{% endcomment %}
+
+{% assign tag_data = site.options.status_badges | where_exp:"n", "n.title==status_tag" | first %}
+
+{% if tag_data %}
+  <span class="badge white-text {{ tag_data.color }}" title="{{ tag_data.description }}">{{ tag_data.title }}</span>
+{% else %}
+  <span class="badge white-text">{{ status_tag }}</span>
+{% endif %}
+
+{% assign status_tag = nil %}

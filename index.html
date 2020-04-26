@@ -1,0 +1,36 @@
+---
+layout: default
+title: "Projects"
+description: "Projects Listing"
+---
+
+<div class="row">
+{% assign sortedprojects = site.pages | sort: "title" %}
+{% assign badges = site.options.status_badges %}
+
+{% for badge in badges %}
+  {% for project in sortedprojects %}
+    {% if project.layout=='project' and project.status==badge.title %}
+
+        <!-- mobile devices -->
+        {% comment %}
+          Do not specify card size so that the card thumbnail scales by ratio.
+          If a card size is given the thumb gets clipped.
+        {% endcomment %}
+        {% assign card_size = '' %}
+        {% assign visibility_class = 'hide-on-large-only' %}
+        {% include project_card %}
+
+        <!-- larger devices -->
+        {% comment %}
+          Specify a card size so they appear in neat rows, otherwise their
+          content varies the card height and causes a jagged layout.
+        {% endcomment %}
+        {% assign card_size = 'medium' %}
+        {% assign visibility_class = 'hide-on-med-and-down' %}
+        {% include project_card %}
+
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>

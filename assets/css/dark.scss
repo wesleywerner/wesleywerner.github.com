@@ -1,0 +1,54 @@
+---
+---
+
+/* variable override from _variables.scss */
+$primary-color: #8d6e63;          /* brown lighten-1 */
+$primary-color-light: #a1887f;    /* brown lighten-2 */
+$primary-color-dark: #795548;     /* brown */
+$secondary-color: #ad1457;        /* pink darken-3 */
+
+@import "materialize";
+
+/*
+  set body color with "@extend .grey, .lighten-5;" 
+  */
+body {
+  @extend .grey, .darken-4;
+  /* @extend .brown, .darken-4; */
+  @extend .white-text;
+}
+
+/*
+  anchors and visited 
+  */
+a {
+  color: #4fc3f7; /* light-blue lighten-2 */
+}
+
+a:visited {
+  color: #b39ddb; /* deep-purple lighten-3 */
+}
+
+/*
+  reset anchors in:
+    + headings
+    + nav bar
+  */
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, .nav-wrapper a:visited {
+  @extend .white-text;
+}
+
+/*
+  set container color. 
+  we pad the container since there is a contrast between the body and the container.
+  */
+.container {
+  @extend .grey, .darken-3;
+  padding: 2%;
+}
+
+.card {
+  /* @extend .grey, .darken-2; */
+  /* @extend .indigo, .darken-1; */
+  @extend .blue-grey, .darken-2;
+}

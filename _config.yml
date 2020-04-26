@@ -1,0 +1,104 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Engrams.dev
+email: your-email@example.com
+description: >- 
+  I am Wesley and this is my projects page and programming journal.
+
+# permalink: /:categories/:year/:month/:day/:title:output_ext
+
+sass:
+  style: compressed
+
+options:
+    # style is light or dark
+    style: dark
+    
+    # define the number of Large columns taken per project card.
+    # the default is l3, which gives a layout of 4 cards per row (12/3=4).
+    # for more see https://materializecss.com/grid.html
+    columns_per_card: l3
+    
+    # heading of changelog entries on the project page
+    changelog_heading_text: Journal
+    
+    # footer contents
+    copyright_text: '&copy; 2020 Wesley Werner'
+    footer_heading: 'Find anything useful?'
+    footer_content: 'Check out these links for more.'
+    
+    # list of project status badges.
+    # description is provided as a hover-over tooltip, the order listed here
+    # is how projects are grouped on the index page.
+    status_badges:
+        - title: stable
+          description: The project is stable enough for the average person to use
+          color: teal
+        - title: development
+          description: The project is still being developed, and some parts of it may be ready for casual play or testing
+          color: purple
+        - title: planning
+          description: The project is still in the planning phase
+          color: cyan
+        - title: prototype
+          description: The project is a prototype and may only have some or partial features implemented -- The target audience are developers, mostly
+          color: brown lighten-1
+        - title: on hold
+          description: The project is not actively developed anymore, and is considered incomplete
+          color: grey darken-2
+    links:
+        - text: RSS Feed
+          url: /feed.xml
+        - text: 'GitHub'
+          url: 'https://github.com'
+    
+    # configure the search engine integration
+    search:
+        # show the search icon in the navigation bar.
+        # generate the url and style at https://duckduckgo.com/search_box
+        show: true
+        url: https://duckduckgo.com/search.html?duck=yes&site=https://wesleywerner.github.io&prefill=Search DuckDuckGo&kae=d
+        style: overflow:hidden;margin:0;padding:0;width:483px;height:60px;
+
+# Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

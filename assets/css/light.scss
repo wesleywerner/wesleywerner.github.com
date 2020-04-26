@@ -1,0 +1,26 @@
+---
+---
+
+/* variable override from _variables.scss */
+$primary-color: #311b92;          /* deep-purple darken-4 */
+$primary-color-light: #B2EBF2;    /* cyan lighten-4 */
+$primary-color-dark: #0097A7;     /* cyan darken-2 */
+$secondary-color: #7C4DFF;        /* deep-purple accent-2 */
+
+@import "materialize";
+
+/*
+  set body color with "@extend .grey, .lighten-5;" 
+  */
+body {
+  
+}
+
+/*
+  set container color. 
+  we pad the container since there is a contrast between the body and the container.
+  */
+.container {
+  @extend .grey, .lighten-5;
+  padding: 2%;
+}

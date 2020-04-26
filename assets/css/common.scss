@@ -1,0 +1,77 @@
+---
+---
+
+/*
+  Common fixes applied to materialize.
+  */
+
+/*
+  Override list type - hidden by materialize
+  */
+ul:not(.browser-default)>li {
+  list-style-type: square;
+  margin-left: 2em;
+}
+
+#nav-mobile li {
+  list-style-type: none;
+}
+
+/*
+  Pad nav content away from edge
+  */
+.nav-wrapper {
+  padding-left: 1em;
+}
+
+/* 
+  scale images with crisp edges - ideal for pixel art 
+  */
+.pixelated {
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: pixelated;
+}
+.crisp-edges {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/*
+  responsive images
+  */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+  Sticky footer - https://materializecss.com/footer.html
+  */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*
+  Sticky footer - https://materializecss.com/footer.html
+  */
+main {
+  flex: 1 0 auto;
+}
+
+/*
+  Header Styles
+  */
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2.2rem; }
+h3 { font-size: 2.0rem; }
+h4 { font-size: 1.8rem; }
+h5 { font-size: 1.6rem; }
+h6 { font-size: 1.4rem; }

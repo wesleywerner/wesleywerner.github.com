@@ -1,0 +1,27 @@
+{% comment %}<!--
+Displays a material card for a project.
+Usage:
+  *) assign the project variable to the project page.
+  *) assign the card_size variable to small, medium, large or leave empty
+  *) assign the visibility_class variable to hide or show the card on specific devices.
+  *) include this file
+-->{% endcomment %}
+        <div class="col s12 {{ site.options.columns_per_card }} {{ visibility_class }}">
+          <div class="card {{ card_size }}">
+            <div class="card-image">
+              <a href="{{ project.url }}">
+                <img class="pixelated" src="{{ project.thumb }}">
+              </a>
+            </div>
+            <div class="card-content">
+              <p>{{ project.description }}</p>
+            </div>
+            <div class="card-action">
+              <a href="{{ project.url }}">{{ project.title }}</a>
+              <div>&nbsp;
+              {% assign status_tag = project.status %}
+              {% include status_tag %}
+              </div>
+            </div>
+          </div>
+        </div>

@@ -1,0 +1,38 @@
+{% comment %}<!--
+changelogs include is a listing helper.
+Usage:
+  1) assign the 'game_title' variable to the name of the game you want to list
+    b. assign the 'current_log' variable if including from a changelog layout
+       to highlight the current log in the listing.
+  2) include changelogs
+-->{% endcomment %}
+
+{% assign game_has_changelogs = false %}
+{% assign logs = site.posts | where_exp:"n", "n.layout=='changelog' and n.project==game_title" %}
+
+{% if logs.size > 0 %}
+  <hr/>
+  <h4>{{ site.options.changelog_heading_text }}</h4>
+  <table class="responsive-table">
+    <thead>
+      <tr>
+          <th>Date</th>
+          <th>Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for node in logs %}
+        {% if node.url == current_log %}
+        <tr class="grey darken-2">
+          <td>{{ node.date | date: "%d %b %Y" }}</td>
+          <td>{{ node.title }}</td>
+        </tr>
+        {% else %}
+        <tr>
+          <td>{{ node.date | date: "%d %b %Y" }}</td>
+          <td><a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a></td>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}

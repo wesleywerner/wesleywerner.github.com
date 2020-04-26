@@ -1,0 +1,39 @@
+---
+layout: default
+title: "Projects"
+description: "Projects Listing"
+---
+
+<div class="row">
+{% assign sorted_pages = site.pages | sort: "title" %}
+{% for project_page in sorted_pages %}
+  {% if project_page.layout == 'project' %}
+
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-image">
+            <a href="{{ project_page.url }}">
+              <img class="pixelated" src="{{ project_page.thumb }}">
+            </a>
+          </div>
+          {% comment %} 
+              a fixed content height ensures the cards align in rows
+              while the image resize with a ratio.
+              setting "card medium" clips the images when the card resizes.
+          {% endcomment %}
+          <div class="card-content" style="height: 140px;">
+            <p>{{ project_page.description }}</p>
+          </div>
+          <div class="card-action">
+            <a href="{{ project_page.url }}">{{ project_page.title }}</a>
+            <div>&nbsp;
+            {% assign status_tag = project_page.status %}
+            {% include status_tag %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+  {% endif %}
+{% endfor %}
+</div>

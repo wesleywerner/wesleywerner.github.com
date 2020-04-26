@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% assign project_page = site.pages | where_exp:"n", "n.layout=='project' and n.title==page.project" | first %}
+
+  <nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a class="breadcrumb">{{ site.options.changelog_heading_text}}</a>
+        <a class="breadcrumb" href="{{ project_page.url }}">{{ project_page.title }}</a>
+        <a class="breadcrumb" href="{{ page.url }}">{{ page.title }}</a>
+      </div>
+    </div>
+  </nav>
+
+<p><i class="material-icons">date_range</i> {{ page.date | date_to_long_string }}</p>
+
+{{ content }}
+
+{% assign game_title = project_page.title %}
+{% assign current_log = page.url %}
+{% include changelogs %}
