@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign project_page = site.pages | where_exp:"n", "n.layout=='project' and n.title==page.project" | first %}
+{% assign project_page = site.pages | where_exp:"n", "n.layout=='project'" | where_exp:"n", "n.title==page.project" | first %}
 
   <nav>
     <div class="nav-wrapper">

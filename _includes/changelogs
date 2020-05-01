@@ -8,7 +8,7 @@ Usage:
 -->{% endcomment %}
 
 {% assign game_has_changelogs = false %}
-{% assign logs = site.posts | where_exp:"n", "n.layout=='changelog' and n.project==game_title" %}
+{% assign logs = site.posts | where_exp:"n", "n.layout=='changelog'" | where_exp:"n", "n.project==game_title" %}
 
 {% if logs.size > 0 %}
   <hr/>
