@@ -5,7 +5,9 @@ layout: default
   <div class="col s12 m4">
     <img src="{{ page.thumb }}">
   </div>
-  <!-- larger devices -->
+  <!-- larger devices "hide-on-med-and-down" -->
+  {% comment %}
+  NOTE 'hide' class hides the button links as the 'collection' links below look better when wrapped
   <div class="col s12 m8 hide-on-med-and-down">
     {% if page.links %}
       {% for link in page.links %}
@@ -18,8 +20,9 @@ layout: default
       {% endfor %}
     {% endif %}      
   </div>
-  <!-- mobile devices -->
-  <div class="hide-on-large-only">
+  {% endcomment %}
+  <!-- mobile devices "hide-on-large-only" -->
+  <div class="">
     <div class="collection">
       {% if page.links %}
         {% for link in page.links %}
