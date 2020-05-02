@@ -5,17 +5,33 @@ layout: default
   <div class="col s12 m4">
     <img src="{{ page.thumb }}">
   </div>
-  <div class="col s12 m8">
+  <!-- larger devices -->
+  <div class="col s12 m8 hide-on-med-and-down">
     {% if page.links %}
       {% for link in page.links %}
         {% assign link_even = forloop.index | modulo:2 %}
         {% if link_even == 1 %}
-        <a class="waves-effect waves-light btn" role="button" href="{{ page.links[forloop.index] }}">
+        <a class="z-depth-2 white-text waves-effect waves-light btn" role="button" href="{{ page.links[forloop.index] }}">
           {{ link }}
         </a>
         {% endif %}
       {% endfor %}
     {% endif %}      
+  </div>
+  <!-- mobile devices -->
+  <div class="hide-on-large-only">
+    <div class="collection">
+      {% if page.links %}
+        {% for link in page.links %}
+          {% assign link_even = forloop.index | modulo:2 %}
+          {% if link_even == 1 %}
+          <a class="collection-item z-depth-2 white-text indigo waves-effect waves-light btn" role="button" href="{{ page.links[forloop.index] }}">
+            {{ link }}
+          </a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
   </div>
 </div>
     
