@@ -67,20 +67,20 @@ options:
         - text: RSS Feed
           url: /feed.xml
         - text: 'GitHub'
-          url: 'https://github.com'
+          url: 'https://github.com/wesleywerner/'
     
     # configure the search engine integration
     search:
         # show the search icon in the navigation bar.
         # generate the url and style at https://duckduckgo.com/search_box
         show: true
-        url: https://duckduckgo.com/search.html?duck=yes&site=https://wesleywerner.github.io&prefill=Search DuckDuckGo&kae=d
+        url: https://duckduckgo.com/search.html?duck=yes&site=engrams.dev&prefill=Search DuckDuckGo
         style: overflow:hidden;margin:0;padding:0;width:483px;height:60px;
 
 # Build settings
 # theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
