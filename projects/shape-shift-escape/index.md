@@ -12,5 +12,8 @@ This is a point-and-click adventure game created using the [SLUDGE game engine](
 The game was made for Ludum Dare #33, 2015.
 
 ![](/projects/shape-shift-escape/screenshot.png)
+![](/projects/shape-shift-escape/screenshot-2.png)
+![](/projects/shape-shift-escape/screenshot-3.png)
+![](/projects/shape-shift-escape/screenshot-4.png)
 
 The "GNU / Linux" version requires you to install SLUDGE via your repository. The Win32 version (for Windows) contains the executable to play the game.
