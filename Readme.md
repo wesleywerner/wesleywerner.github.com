@@ -94,6 +94,8 @@ status: prototype
 ---
 ```
 
+To build a draft project page without publishing, underscore the file `_index.md`. Remove the underscore when you are ready to publish.
+
 ### Status Badges
 
 Projects can display a development status badge, this is done with the `status` front-matter. You can make up any status you like, some statuses show up with particular color and tooltip text. You can define these in `_config.yml` under the `options.status_badges` list.
