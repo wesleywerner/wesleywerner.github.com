@@ -3,9 +3,7 @@ layout: project
 title: "Microbes"
 description: "you are a microbe with a 10 second lifespan."
 thumb: "/projects/microbes/thumb.jpg"
-links: ["Source", "https://github.com/wesleywerner/microbes", "LD Entry", "http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26303"]
-featured: true
-featuredimage: /projects/microbes/featured.png
+links: ["GitHub", "https://github.com/wesleywerner/microbes", "LD Entry", "http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26303"]
 status: stable
 ---
 

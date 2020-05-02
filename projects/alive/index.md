@@ -3,7 +3,7 @@ layout: project
 title: "Alive"
 description: "A digital adventure"
 thumb: /projects/alive/thumb.jpg
-links: ["Source", "https://github.com/wesleywerner/aliverl"]
+links: ["GitHub", "https://github.com/wesleywerner/aliverl"]
 status: prototype
 ---
 

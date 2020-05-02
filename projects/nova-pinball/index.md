@@ -5,7 +5,7 @@ description: "A star themed pinball game"
 featured: true
 thumb: /projects/nova-pinball/thumb.jpg
 featuredimage: /projects/nova-pinball/featured.jpg
-links: ["Downloads", "https://github.com/wesleywerner/nova-pinball/releases/latest", "Website", "http://wesleywerner.github.io/nova-pinball/", "Source", "https://github.com/wesleywerner/nova-pinball"]
+links: ["Downloads", "https://github.com/wesleywerner/nova-pinball/releases/latest", "Website", "http://wesleywerner.github.io/nova-pinball/", "GitHub", "https://github.com/wesleywerner/nova-pinball"]
 status: stable
 ---
 
