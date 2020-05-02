@@ -20,6 +20,6 @@ I use GIMP for raster image editing. The game images will be loaded from a singl
 
 Geany is the editor of choice (vi over ssh), scrot for screen grabs, and mpd + ncmpcpp for my listening pleasure.
 
-I develop on Crunchbang Linux with snapwm window manager. [here](/assets/alive/complog/crunchbang-scrot-1.jpg) is what it looks like, showing off the UI tech demo and my music playlist.
+I develop on Crunchbang Linux with snapwm window manager. [here](crunchbang-scrot-1.jpg) is what it looks like, showing off the UI tech demo and my music playlist.
 
 This page is generated from tasty markdown text files.

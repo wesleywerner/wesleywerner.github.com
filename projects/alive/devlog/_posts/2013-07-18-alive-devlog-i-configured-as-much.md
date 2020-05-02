@@ -50,11 +50,11 @@ New configuration:
 
 There is a new main screen
 
-![menu screen](/assets/alive/devlog/alive-20130618-menu.png)
+![menu screen](alive-20130618-menu.png)
 
 Terminal views are now full screen
 
-![terminal screen](/assets/alive/devlog/alive-20130618-terminal.png)
+![terminal screen](alive-20130618-terminal.png)
 
 The dialogue system was reworked, it is now as smooth as silk. You can even skip transition effects and dialogues, something that bothered me before.
 

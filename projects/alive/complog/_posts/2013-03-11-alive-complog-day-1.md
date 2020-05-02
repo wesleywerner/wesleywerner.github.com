@@ -12,11 +12,11 @@ Today I got 5 hours down.
 
 The map.py class can read our map file structure, and it has a render() call:
 
-![map.py](/assets/alive/complog/maploader.jpg) 
+![map.py](maploader.jpg) 
 
 The map code rendering action:
 
-![map code rendering action](/assets/alive/complog/mapaction.jpg)
+![map code rendering action](mapaction.jpg)
 
 *Exciting, huh? :\]*
 
@@ -26,7 +26,7 @@ I spent long unravelling 2D cartesian to indexing, this stuff is usually trivial
 
 Once that was working I spent the remaining time GIMPing some tiles:
 
-![GIMPing some tiles](/assets/alive/complog/gimp.jpg)
+![GIMPing some tiles](gimp.jpg)
 
 I'm happy about this, because tomorrow we need to spec out more stuff. We still need
 
@@ -64,11 +64,11 @@ You move between BBS computer systems, you will encounter other programmed AI's 
 
 Along the way you may discover why this happened to you. To find a way out from digital realm and become a physical entity.
 
-I have drawn up a basic idea of [characters](/assets/alive/complog/npcs.jpg), [abilities](/assets/alive/complog/abilities.jpg) and [combat](/assets/alive/complog/combat.jpg).
+I have drawn up a basic idea of [characters](npcs.jpg), [abilities](abilities.jpg) and [combat](combat.jpg).
 
-At this time I opt for static maps, [here](/assets/alive/complog/bitwise.jpg) I did use bit manipulation for future tile selection if we ever do procedural maps.
+At this time I opt for static maps, [here](bitwise.jpg) I did use bit manipulation for future tile selection if we ever do procedural maps.
 
-Hmm, what else. Noting [basic map movement](/assets/alive/complog/map.jpg), some [UI](/assets/alive/complog/ui.jpg) ideas with [widgets](/assets/alive/complog/widgets.jpg).
+Hmm, what else. Noting [basic map movement](map.jpg), some [UI](ui.jpg) ideas with [widgets](widgets.jpg).
 
 Not all of these will make it.
 

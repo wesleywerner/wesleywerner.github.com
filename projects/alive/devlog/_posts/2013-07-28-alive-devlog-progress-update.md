@@ -32,7 +32,7 @@ The first milestone now has a name: Y.T, after the streetwise fifteen-year old g
     
 2.  (23610a2): center the viewport around the player if it is out of scope
     
-3.  (acc5549): level 1 got servers and (2824700): server tiles! ![server](/assets/alive/devlog/alive-20130628-server.gif)
+3.  (acc5549): level 1 got servers and (2824700): server tiles! ![server](alive-20130628-server.gif)
     
 4.  (fcfa642): Ctrl+Function keys for debug events
     

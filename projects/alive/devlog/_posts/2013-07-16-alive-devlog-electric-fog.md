@@ -12,7 +12,7 @@ This update is brought to you by git branching, hot drinks and popcorn.
 
 I polished the fog that covers unseen and out-of-range map areas.
 
-![electric fog](/assets/alive/devlog/alive-20130616-gameplay.png)
+![electric fog](alive-20130616-gameplay.png)
 
 This was a good rewrite.
 
@@ -33,7 +33,7 @@ it now fits onto netbook screens
 
 *   polished the computer terminal screen
 
-![terminal](/assets/alive/devlog/alive-20130616-dialogue.png)
+![terminal](alive-20130616-dialogue.png)
 
 *   add a microchip animated tile
     

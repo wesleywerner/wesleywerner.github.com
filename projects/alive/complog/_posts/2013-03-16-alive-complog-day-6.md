@@ -10,7 +10,7 @@ tags: []
 
 Today we draw the play area onto the main screen.
 
-![game messages](/assets/alive/complog/tile6.png)
+![game messages](tile6.png)
 
 We fixed some line wrapping issues, and a panel to draw the player stats.
 

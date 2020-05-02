@@ -14,7 +14,7 @@ Triggers allow us to do some crafty things with the game levels. We can close an
 
 These actions are set when using the Tiled map editor.
 
-![caps](/assets/alive/complog/tile5.png) 
+![caps](tile5.png) 
 
 We have capacitor tiles which can pop when the player throws a switch, uses a terminal computer, or walks over a plate trigger.
 

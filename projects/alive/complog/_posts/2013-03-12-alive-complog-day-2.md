@@ -16,7 +16,7 @@ I battled with drawing the different canvas layers with transparency, the part w
 
 That's all.
 
-![walking into things hurts](/assets/alive/complog/collisions.png)
+![walking into things hurts](collisions.png)
 
 _Edit:_
 

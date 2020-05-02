@@ -10,7 +10,7 @@ tags: []
 
 Today's post is brought to you by strawberries and neural upgrades.
 
-![pixel cookie](/assets/alive/devlog/pixelcookie.png)
+![pixel cookie](pixelcookie.png)
 
 notable changes
 ---------------
@@ -40,9 +40,9 @@ action
 
 using a sarcastic terminal:
 
-![using a sarcastic terminal](/assets/alive/devlog/alive-20130721-terminal.png)
+![using a sarcastic terminal](alive-20130721-terminal.png)
 
 a preview of the new tileset:
 
-![a preview of the new tileset](/assets/alive/devlog/alive-20130721-tiles.png)
+![a preview of the new tileset](alive-20130721-tiles.png)
 

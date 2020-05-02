@@ -69,28 +69,28 @@ Alive is a mix between a roguelike and role playing elements. You move from leve
 ### Images
 
 *Main menu*  
-![](/assets/alive/project/main-menu.png)
+![](project/main-menu.png)
 
 *Help screen*  
-![](/assets/alive/project/help-screen.png)
+![](project/help-screen.png)
 
 *Info screen*  
-![](/assets/alive/project/info-screen.png)
+![](project/info-screen.png)
 
 *Upgrades screen*  
-![](/assets/alive/project/upgrades-screen.png)
+![](project/upgrades-screen.png)
 
 *Gameplay - server room*  
-![](/assets/alive/project/server-room.png)
+![](project/server-room.png)
 
 *Gameplay - sick bay*  
-![](/assets/alive/project/sickbay.png)
+![](project/sickbay.png)
 
 *Terminal screen*  
-![](/assets/alive/project/terminal-screen.png)
+![](project/terminal-screen.png)
 
 *Terminal crash*  
-![](/assets/alive/project/terminal-crash.png)
+![](project/terminal-crash.png)
 
 *Tileset sample*  
-![](/assets/alive/project/tileset.png)
+![](project/tileset.png)

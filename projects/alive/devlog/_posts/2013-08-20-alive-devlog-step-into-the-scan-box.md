@@ -10,7 +10,7 @@ tags: []
 
 This update is brought to you by protein muffins and digital frenzies.
 
-![pixel cookie](/assets/alive/devlog/pixelcookie.png)
+![pixel cookie](pixelcookie.png)
 
 #### New screens
 
@@ -49,21 +49,21 @@ Screens
 
 A redesigned main menu, those buttons slide in and out as menus change:
 
-![main menu](/assets/alive/devlog/alive-20130820-menu.png)
+![main menu](alive-20130820-menu.png)
 
 One of the update help screens:
 
-![help screen](/assets/alive/devlog/alive-20130820-help.png)
+![help screen](alive-20130820-help.png)
 
 The storage server room, lots of blinkenlichts:
 
-![the server room](/assets/alive/devlog/alive-20130820-server-room.png)
+![the server room](alive-20130820-server-room.png)
 
 The sick bay, for sick bots:
 
-![sick bay](/assets/alive/devlog/alive-20130820-sickbay.png)
+![sick bay](alive-20130820-sickbay.png)
 
 A terminal screen:
 
-![a terminal screen](/assets/alive/devlog/alive-20130820-terminal.png)
+![a terminal screen](alive-20130820-terminal.png)
 

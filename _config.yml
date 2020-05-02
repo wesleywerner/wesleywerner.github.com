@@ -22,7 +22,11 @@ title: Engrams.dev
 email: your-email@example.com
 description: I am Wesley and this is my projects page and programming journal.
 
-# permalink: /:categories/:year/:month/:day/:title:output_ext
+# Change permalink paths to match the structure of the source files.
+# This makes including images in logs much easier as the html and assets
+# deploy into the same directory.
+# default permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:path
 
 sass:
   style: compressed
