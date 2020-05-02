@@ -1,0 +1,320 @@
+<!--
+ ____                                ____  _ _       
+| __ )  __ _ _ __   __ _ _ __   __ _/ ___|(_) |_ ___ 
+|  _ \ / _` | '_ \ / _` | '_ \ / _` \___ \| | __/ _ \
+| |_) | (_| | | | | (_| | | | | (_| |___) | | ||  __/
+|____/ \__,_|_| |_|\__,_|_| |_|\__,_|____/|_|\__\___|
+
+A simple markdown site printer with site pages support.
+https://github.com/wesleywerner/bananasite
+
+Copyright (C) 2013 Wesley Werner
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should receive a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <title>Topdog - 7DRL Entry for 2012</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="header"><img class="responsive-img z-depth-1" src="btn.main.png" alt=""></div>
+
+        <div class="post">
+            <h1><a href="#">Topdog</a></h1>
+
+            <p><strong>10 Mar 2012</strong></p>
+
+            <p>This is my 2012 7-Day Roguelike entry.</p>
+
+            <p>You are Topdog, The Puppy has been kidnapped by the Fat Cat Mafioso. You travel from yard to yard, searching for the crafty Cats holding her hostage. Along the way you meet other animals, and perhaps a bone or two.</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/bone.png" alt="bone" ></p>
+
+            <p>Made with Python with SDL and Libtcod.</p>
+
+            <p>The Idea: Minimalism and fun, is the primary goal. Replayability is a given, with a low learning curve. To achive this, some classic RL mechanics are simplified, and complimentary Role Playing elements are introduced:</p>
+
+            <h1>Timeline</h1>
+
+            <ul>
+                <li>Day 1: Game Spec</li>
+                <li>Day 2: Flesh out classes and their properties, helper functions, and game loop</li>
+                <li>Day 3: Map generation, object item and NPC stats + descriptions, Object interactions and inventory</li>
+                <li>Day 4: Combat and flee system, NPC AI</li>
+                <li>Day 5: Quest system</li>
+                <li>Day 6: Bug testing, UI polish and balancing</li>
+                <li>Day 7: Saved for Murphey's Law</li>
+            </ul>
+
+            <h1>How To Play</h1>
+
+            <p><strong>Get the source code</strong></p>
+
+            <ul>
+                <li>
+                    <p>about 404kb</p>
+                </li>
+                <li>
+                    <p>git clone git@github.com:wesleywerner/topdog.git</p>
+                </li>
+                <li>
+                    <p>No git? No problem. <a href="https://github.com/wesleywerner/topdog/zipball/master">Download the ZIP</a>.</p>
+                </li>
+                <li>
+                    <p>run with Python:</p>
+
+                    <p>python topdog.py</p>
+                </li>
+            </ul>
+
+            <p>Python comes with most Linuxes. For Windows you have to <a href="http://www.python.org">download Python</a>.</p>
+
+            <h2>Playing</h2>
+
+            <p>Use the number keypad to move around. Walk over toys to pick them up. Press 'd' to drink water when thirsty. Move to the next level/yard by moving onto a hole in the fence.</p>
+        </div>
+
+        <div class="post">
+            <h1><a href="#">Day 1: Specification</a></h1>
+
+            <p><strong>12 Mar 2012</strong></p>
+
+            <p>The game spec is going fine, I expect many changes albeit most of it is good to go.</p>
+
+            <p>You can read the entire spec <a href="https://github.com/wesleywerner/topdog/blob/master/game-spec">online on github</a>.</p>
+
+            <p>You can move around, and there are blocking tiles, a garden fence with holes in it. Some shrubs, trees and water too. These are placed for testing tile interaction only, their final placement will be better.</p>
+
+            <p>Game state machine and some helper functions are also in. Ahead of schedule is nice :-)</p>
+
+            <p>I also pushed the source to GitHub, see the &quot;Source&quot; Link in my sidebar.</p>
+
+            <p>Here is a <a href="images/topdog-v0.1-desktop.png">shot of my desktop</a> during development (290kb).</p>
+
+            <p>The game window:</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/topdog-v0.1.png" alt="game window image" ></p>
+        </div>
+
+        <div class="post">
+            <h1><a href="#">Kittens and Drink</a></h1>
+
+            <p><strong>13 Mar 2012</strong></p>
+
+            <p><img class="responsive-img z-depth-1" src="images/13th-03h.34_kitten.jpg" alt="kitten image" ></p>
+        </div>
+
+        <div class="post">
+            <h1><a href="#">Colors, fonts and tasty messages.</a></h1>
+
+            <p><strong>13 Mar 2012</strong></p>
+
+            <p>Added some fluff while fleshing out the classes, the commit summary speaks to us in a robot voice:</p>
+
+            <pre><code>20842c9 add terminal 16x16 font (nice and large for hi res)
+b41e65a spawn pools more away from fences. fiddled with colors. I should probably commit smaller changes more often.
+20235e6 Allow moving through holes to other yards.
+2622bee changed the screen size, changed colors. added blocking messages.
+71eb42b switched to terminal font to support ascii symbols.
+</code></pre>
+
+            <p>The new fontmap gives us nice ASCII characters like spades and wotnots, also see some colorful message highlighting:</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/13th-00h.07_color-matching.jpg" alt="color matching image" ></p>
+
+            <p>Started that level in the middle of the Pool, oops.</p>
+
+            <p>This is the first time I'm using GIT source control, my HG knowledge slots in well so using it is a breeze.</p>
+
+            <p>Times like these you appreciate VIM syntax highlighting :D</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/12th-23h.43_vi-syntax.jpg" alt="vi syntax image" ></p>
+        </div>
+
+        <div class="post">
+            <h1><a href="#">ASCII Maps</a></h1>
+
+            <p><strong>13 Mar 2012</strong></p>
+
+            <p>We can now load map templates from ASCII :-)</p>
+
+            <p>See my latest <a href="https://github.com/wesleywerner/topdog/commits/master">code commits on GitHub</a> <img class="responsive-img z-depth-1" src="images/octocat.png" alt="octocat" ></p>
+
+            <p><img class="responsive-img z-depth-1" src="images/13th-19h.19_ascii-maps.jpg" alt="ascii-maps image" ></p>
+
+            <p>Python rocks for dynamic code calling, it is the the Dog's Bark ;D</p>
+
+            <p>We can make a dictionary of map characters, and perform a lookup against it. Matching entries are function references (get<em>tar, get</em>puddle):</p>
+
+            <pre><code>tile_lookup = {
+            CHAR_TAR: get_tar
+            ,CHAR_WATER: get_puddle
+        }
+            </code></pre>
+
+            <p>We can easily call these functions, inline and without much flak:</p>
+
+            <pre><code>if ascii_map_char in tile_lookup:
+gamemap[x][y] = tile_lookup[ ascii_map_char ]()
+            </code></pre>
+        </div>
+
+        <div class="post">
+            <h1><a href="#">Day 3: The unseen darkness and doggy toys</a></h1>
+
+            <p><strong>14 Mar 2012</strong></p>
+
+            <p>This update is brought to you by Dynamically loaded maps, FOV (Field Of Vision), colorful flowers, and inventory.</p>
+
+            <p>You can pick up doggy toys by moving over them. Since you carry in your mouth, you drop whatever you were carrying before each time. You can carry items across levels. Dogs really do this... no really.</p>
+
+            <p>More tweaking to colors, for flowers bushes and trees. The heart item here is a doggy toy. All toys show as different colored hearts. </p>
+
+            <p><img class="responsive-img z-depth-1" src="images/14th-colors.png" alt="colorful screen" ></p>
+
+            <p>FOV determines what you can see via line-of-sight. Here you see where I highlighted (in pink) where the tree blocks our sight, the tiles beyond it are greyed out. </p>
+
+            <p><img class="responsive-img z-depth-1" src="images/14th-fov.jpg" alt="field of vision screen" ></p>
+
+            <p>Maps can now load from text files. I found an awesome <a href="http://code.google.com/p/ascii-paint/">ASCII Paint</a> app to draw maps with. They are essentially text files, 36x36 characters in size. B's get converted to bricks, b's to bushes, f's to flowers, t's to trees, ~'s to water, and #'s to fences.</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/14th-02h.43_map-show.jpg" alt="map image" ></p>
+
+            <p>And here is editing the map:</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/14th-02h.44_map-edit.jpg" alt="map editor" ></p>
+        </div>
+
+        
+        <div class="post">
+            <h1><a href="#">Don't worry he don't bite, much.</a></h1>
+
+            <p><strong>15 Mar 2012</strong></p>
+
+            <p>Day 4 was in the zone, like being with Mercer, but Do Androids Dream of Electric Sheep? Sit down, have a doggy biscuit...</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/bone.png" alt="bone" ></p>
+
+            <h2>Changes</h2>
+
+            <p><strong>glossary:</strong> NPC is a Non Player Character. All the other animals in game, whether they are friend or foe.</p>
+
+            <p>Simplified the UI, a lot! No more superfluous details on screen, those will go into their own screen. You only see what is necessary to win:</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/15th-10h.33_new-ui.jpg" alt="new ui image" ></p>
+
+            <p>We have interactive NPC's. Some are friendly, others hostile. They can have arbitrary amount of dialogue, run away from you, hunt you down, follow you around and give you quests.</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/15th-10h.39_mouse-dialogue.jpg" alt="mouse dialogue" ></p>
+
+            <p>We have NPC's that have various behavior models: skittish, neutral, friendly, hunting. They also have interaction models, hostile NPC's can take initiative and attack you first, while friendly's start a conversation or give you quests.</p>
+
+            <p>The Hunting movement AI is pretty crafty: It uses A* path finding to follow you. If it loses sight of you, it remembers where it saw you last, and heads there to search you out. This could be improved on by implementing scent trails (for real hunters).</p>
+
+            <p>Python is amazing for dynamic code structures. Up to now it was a lot of class models for Inheritance and Polymorphism. Functional languages give us Composition, something I can see will work well in business rule engines.</p>
+
+            <p>Enough rambling, we need a working quest engine, hint and scent trails, and like-to-have mouse support.</p>
+
+            <ul>
+                <li>6 hours ago: friendly npc's follow a distance.</li>
+                <li>7 hours ago: scared ai fixes</li>
+                <li>7 hours ago: Fix bug when they lose sight of you.</li>
+                <li>7 hours ago: hunters use A* to track you down. they even remember your last known position.</li>
+                <li>8 hours ago: Attacking works now, with victim also getting a turn.</li>
+                <li>8 hours ago: more MoveAI code.</li>
+                <li>9 hours ago: flying npc's can move through blocking tiles</li>
+                <li>9 hours ago: Include ActionManual for the Player. this allows both NPC's to initiate conversation with the Player, and vice versa.</li>
+                <li>11 hours ago: start of passing NPC player dialogues</li>
+                <li>11 hours ago: only move NPC's if our player moved. ie hitting a wall doesnt count.</li>
+                <li>11 hours ago: action_ai logic passes dialogue, quests or hostility.</li>
+                <li>12 hours ago: AnimalBase has take<em>turn implemented. NPC's can move around, and recognize when they hit another. The have move</em>ai and action_ai attributes which get called on interaction.</li>
+                <li>13 hours ago: refactored Object() into ItemBase() and AnimalBase()</li>
+                <li>16 hours ago: replaced &quot;you see' list with cleverness: show in message list only once.</li>
+                <li>17 hours ago: changed UI, shuffled message positions, removed detailed info (to have its own screen)</li>
+            </ul>
+        </div>
+
+        <div class="post">
+            <h1><a href="#">Last Day: Story lines and fighting monkeys</a></h1>
+
+            <p><strong>17 March 2012</strong></p>
+
+            <p>There is under 10 hours left, the core mechanics of the quest engine and game interactions is as much done as I have time for. All that remains is fleshing out the story line, and coding it in. Been going for 14 hours now, taking a breaker to be fresh-brained to write creative story lines.</p>
+
+            <p>What the playing screen looks like now:</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/17th-02h.03_playing.jpg" alt="gameplay screen" ></p>
+
+            <p>Dialogue screens have matching pictures of the animals you talk to:</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/17th-02h.04_dialogue.jpg" alt="dialogue" ></p>
+
+            <p>They can chirp you before a fight:</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/17th-02h.05_monkeybusiness.jpg" alt="monkey business" ></p>
+
+            <p>The stats screen shows your progress, and any quests you are busy with:</p>
+
+            <p><img class="responsive-img z-depth-1" src="images/17th-02h.04_infos.jpg" alt="game stats screen" ></p>
+
+            <p>I won't bore you with any commit logs this time, you can <a href="https://github.com/wesleywerner/topdog/commits/master">read them online</a> at your leisure.</p>
+
+            <p><strong>WOOF!</strong></p>
+        </div>
+
+        <div class="post">
+            <h1><a href="#">Top Dog Release and cutesy animals</a></h1>
+
+            <p><strong>22 Mar 2012</strong></p>
+
+            <p>It is past the comp submission date, so all changes from here on are post-challenge polish. Hey, even chickens need lipstick...</p>
+
+            <p>Notably:</p>
+
+            <ul>
+                <li>prettified colorization. your visible fov looks more solid, less crufty and more tasty.</li>
+                <li>colorized cutesy animal icons. it was bound to happen.</li>
+                <li>player can lose: if your health drops, you have to redo the level.</li>
+                <li>the Puppy now says his thanks.</li>
+                <li>end game stats screen that saves as a screenshot for printing your own x-mas cards this year!</li>
+                <li>10 cutesy animal icons for your eyeball pleasure ^_^</li>
+            </ul>
+
+            <p>The game menu</p>
+            <img class="responsive-img z-depth-1" src="images/22th-01h.30_menu.jpg" alt="The game menu">
+
+            <p>A gameplay screen</p>
+            <img class="responsive-img z-depth-1" src="images/22th-01h.31_play.jpg" alt="A gameplay screen">
+
+            <p>An in-game dialogue</p>
+            <img class="responsive-img z-depth-1" src="mages/22th-01h.32_dialogue.jpg" alt="An in-game dialogue">
+
+            <p>The help screen</p>
+            <img class="responsive-img z-depth-1" src="images/22th-01h.32_help.jpg" alt="The help screen">
+
+            <p>Another gameplay screen</p>
+            <img class="responsive-img z-depth-1" src="images/22th-01h.35_play.jpg" alt="Another gameplay screen">
+        </div>
+
+        <div id="footer">
+        </div>
+    </div>
+</body>
+</html>
