@@ -14,7 +14,7 @@ Usage:
 {% assign tag_data = site.options.status_badges | where_exp:"n", "n.title==status_tag" | first %}
 
 {% if tag_data %}
-  <span class="badge white-text {{ tag_data.color }}" title="{{ tag_data.description }}">{{ tag_data.title }}</span>
+  <span class="z-depth-1 badge white-text {{ tag_data.color }}" title="{{ tag_data.description | smartify }}" onclick="M.toast({html: '{{ tag_data.description | smartify }}'})">{{ tag_data.title }}</span>
 {% else %}
   <span class="badge white-text">{{ status_tag }}</span>
 {% endif %}
