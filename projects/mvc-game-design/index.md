@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "MVC Game Design"
-description: "Paper: Implementing the model-view-controller design pattern for games."
+description: "A practical guide to design patterns in games."
 thumb: /projects/mvc-game-design/thumb.png
 links: ["Online Document", "https://engrams.dev/mvc-game-design/"]
 status: stable
