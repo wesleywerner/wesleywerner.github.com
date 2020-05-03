@@ -2,7 +2,7 @@
 layout: project
 title: "Snowflakes"
 description: "A web canvas tutorial to creating a digital xmas card."
-thumb: /projects/Snowflakes/thumb.png
+thumb: /projects/snowflakes/thumb.png
 links: ["Online Document", "https://github.com/wesleywerner/snowflakes", "Live Demo", "https://wesleywerner.github.io/snowflakes/"]
 status: stable
 ---
