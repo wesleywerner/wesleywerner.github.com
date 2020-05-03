@@ -1,11 +1,11 @@
 ---
 layout: project
 title: "Pong"
-description: "A clasic remake"
+description: "A remake of the very first game."
 featured: true
 featuredimage: /projects/pong/featured.png
 thumb: /projects/pong/thumb.png
-links: ["GitHub", "https://github.com/wesleywerner/classicpong"]
+links: ["GitHub", "https://github.com/wesleywerner/classicpong", "Play Online", "http://wesleywerner.github.io/classicpong/"]
 status: stable
 ---
 
