@@ -8,16 +8,9 @@ Developers like us keep a journal of progress made on our projects, things learn
 
 The main premise are Project Pages, each which may have changelogs associated, development notes or devlogs attached.
 
-## Links
-
-Listing of resources relating to the technologies used to generate this site:
-
-* [Jekyll-Bootstrap][]
-* [Jekyll Docs][]
-
 ## Quick Start
 
-* [Install Ruby and Jekyll][Jekyll Installation]
+* [Install Ruby and Jekyll](https://jekyllrb.com/docs/)
 * Exec `jekyll serve`, the localhost URL will be printed to stdout.
 
 ```
