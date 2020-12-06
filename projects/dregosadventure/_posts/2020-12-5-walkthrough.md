@@ -5,28 +5,27 @@ description: ""
 project: "Dr. Ego's Adventure"
 ---
 
-```
 TABLE OF CONTENTS
-===============================================================================
+-----------------
 
-Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . .
-Canoe Ride . . . . . . . . . . . . . . . . . . . . . . . . . . . . Section A
-Lost in the Jungle . . . . . . . . . . . . . . . . . . . . . . . . Section B
-Clearing, The Monkey . . . . . . . . . . . . . . . . . . . . . . . Section C
-Deadly Drop  . . . . . . . . . . . . . . . . . . . . . . . . . . . Section D
-Waterfall  . . . . . . . . . . . . . . . . . . . . . . . . . . . . Section E
-Making Light . . . . . . . . . . . . . . . . . . . . . . . . . . . Section F
-Tomb . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Section G
-The Key  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Section H
-The Hen  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Section I
-Your Journal . . . . . . . . . . . . . . . . . . . . . . . . . . . Section J
-The Golden Egg . . . . . . . . . . . . . . . . . . . . . . . . . . Section K
-Complete Walkthrough . . . . . . . . . . . . . . . . . . . . . . . Section L
+```
+Introduction
+Canoe Ride . . . . . . . Section A
+Lost in the Jungle . . . Section B
+Clearing, The Monkey . . Section C
+Deadly Drop  . . . . . . Section D
+Waterfall  . . . . . . . Section E
+Making Light . . . . . . Section F
+Tomb . . . . . . . . . . Section G
+The Key  . . . . . . . . Section H
+The Hen  . . . . . . . . Section I
+Your Journal . . . . . . Section J
+The Golden Egg . . . . . Section K
+Complete Walkthrough . . Section L
+```
 
-
-===============================================================================
-                                       INTRODUCTION
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+INTRODUCTION
+------------
 
 Welcome to Dr Hint's ReversiClues and walkthrough.
 
@@ -43,13 +42,14 @@ Finally, the story has a built-in hint system too. Type HINT to use it.
 
 Good luck, and happy adventuring!
 
+----
 
 
 
 
-===============================================================================
-SECTION A                                                            CANOE RIDE
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION A - CANOE RIDE
+----------------------
+
 
 Is the boat ride mandatory?
 1.  No. You can WAIT to pass the time instantly.
@@ -61,10 +61,10 @@ What should I do here?
 How to I get out of the canoe, once at the shore?
 1. Exit the craft
 
+----
 
-===============================================================================
-SECTION B                                                    LOST IN THE JUNGLE
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION B - LOST IN THE JUNGLE
+------------------------------
 
 How do I get lost?
 1.  By going in any direction that does not have a path, or way, described
@@ -75,10 +75,11 @@ How do I get unlost?
 2.  If you don't have the compass, you can keep going in any direction,
 and eventually find your way back. It just takes more time.
 
+----
 
-===============================================================================
-SECTION C                                                  CLEARING, THE MONKEY
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION C - CLEARING, THE MONKEY
+--------------------------------
+
 
 Where do I go from here? I have explored all the ways, and am stuck.
 1.  The path will reveal itself when you look around from up [hgih].
@@ -103,10 +104,10 @@ How do I get the banana?
 4.  Use your [pihwllub] to get the [ananab].
 5.  [pihw] the tree.
 
+----
 
-===============================================================================
-SECTION D                                                           DEADLY DROP
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION D - DEADLY DROP
+-----------------------
 
 How do I save myself from falling?
 1.  You can use something to pull yourself over short distances.
@@ -116,10 +117,10 @@ Will I fall every time I cross?
 1.  This only happens once during the story.
 2.  But it happens randomly, so you may not encounter this.
 
+----
 
-===============================================================================
-SECTION E                                                             WATERFALL
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION E - WATERFALL
+---------------------
 
 What is significant about the waterfall?
 1.  This becomes apparent after you visit the [elpmet].
@@ -129,10 +130,10 @@ What is significant about the waterfall?
 It is too dark to enter.
 1.  See section F.
 
+----
 
-===============================================================================
-SECTION F                                                          MAKING LIGHT
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION F - MAKING LIGHT
+------------------------
 
 Where do I get a light?
 1.  Read ahead only once you have found the alcove.
@@ -157,10 +158,10 @@ Why did my light go out?
 1.  The [leuf] only lasts so long.
 2.  You need to dip the [hcrot] in the [ecnatsbus] and light it again.
 
+----
 
-===============================================================================
-SECTION G                                                                  TOMB
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION G - TOMB
+----------------
 
 How do I find the tomb?
 1.  See section E.
@@ -174,10 +175,10 @@ What do I have to do here?
 6.  You insert the key into it.
 7.  Then give it a few turns.
 
+----
 
-===============================================================================
-SECTION H                                                               THE KEY
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION H - THE KEY
+-------------------
 
 Where do I get the key?
 1.  You must have visited the tomb.
@@ -186,10 +187,10 @@ Where do I get the key?
 4.  Try showing the [gniward] to the [revrac].
 5.  Give the [nekcihc] and [gniward] to the [revrac].
 
+----
 
-===============================================================================
-SECTION I                                                               THE HEN
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION I - THE HEN
+-------------------
 
 How do I catch it?
 1.  Did you notice the trap in the canoe?
@@ -202,10 +203,10 @@ How do I catch it?
 8.  Then set it, and wait.
 9.  When the [nekcihc] is inside, pull the [gnirts].
 
+----
 
-===============================================================================
-SECTION J                                                          YOUR JOURNAL
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION J - YOUR JOURNAL
+------------------------
 
 Why do I need the journal?
 1.  It contains your research notes.
@@ -224,10 +225,10 @@ What other non-spoilerly topics can I read about?
 6.  treasure
 7.  climate
 
+----
 
-===============================================================================
-SECTION K                                                        THE GOLDEN EGG
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SECTION K - THE GOLDEN EGG
+--------------------------
 
 How can I take the Golden Egg without dying?
 1.  The prize rests on a [erusserp] [evitisnes] plate.
@@ -240,6 +241,11 @@ How do I end the story?
 1.  If you have the Golden Egg.
 2.  Return to the [eonac].
 
+----
+
+(Scroll down for the complete solution)
+
+```
 
 
 
@@ -266,89 +272,109 @@ How do I end the story?
 
 
 
+```
+
+SECTION L - WALKTHROUGH
+=======================
 
 
-
-===============================================================================
-SECTION L                                                           WALKTHROUGH
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Dr Ego's Adventure walkthrough
-===============================================================================
-
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 In the canoe
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+------------
 
 You start in the canoe on the Maro river. You can examine your inventory and
 the scenery, and greet your guide.
 
+```
 > say hi
+```
 
 The boat ride can last for a while. You can WAIT to pass the time immediately
 until you reach the shore.
 
+```
 > wait
+```
 
 And head of to the next part of the story.
 
+```
 > go north
 > go west
+```
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 The clearing and the monkey
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+---------------------------
 
 Climb up the tree to see the path forward
 
+```
 > climb fig tree
 > look north
 > climb down
+```
 
 Oh no, your compass dropped during your descent. If you stashed it in your
 satchel before climbing down this would have been avoided. Let us get it back.
 
+```
 > go hut
 > search rubble
 > go southwest
 > examine veggies
 > get tuber
 > whip banana tree
-> wait (until the monkey appears, and then wait more until it grab the banana)
+```
+
+At this point you can simply wait until the monkey appears, it will see the banana lying on the ground. If you have already picked up the banana, you should go to the clearing and `drop the banana`.
+
+Now keep waiting until the monkey appears and takes the banana.
+
+```
+> wait
+```
+
+Once the creature drops your compass you can take it back.
+
+```
 > get compass
+```
 
 Onward to the next area.
 
-> go hut
-> go north
+```
+> go hut (if in the Garden!)
+> go north (if in the Bungalow!)
 > go north
 > climb stairs
 > cross bridge
+```
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 The rope bridge and deadly drop
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+-------------------------------
 
 Crossing the bridge has a chance of falling. If this happens:
 
+```
 > whip bridge
+```
 
 You emerge at the other side
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 The waterfall and temple
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+------------------------
 
+```
 > enter temple
 > examine symbols
 > notes on air terjun
 > exit north
 > look behind waterfall
 > enter alcove
+```
 
 We need a light to enter. Time to make a torch.
 
+```
 > enter temple
 > examine floor
 > open slab
@@ -361,67 +387,81 @@ We need a light to enter. Time to make a torch.
 > get stone
 > strike flint
 > enter alcove
+```
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 The underground tomb
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+--------------------
 
-> examine stone column
+```
 > examine hole
+> examine stone column
 > look inside hole
 > notes on sowilu
+```
 
 We need the key, you have a drawing of it from your journal. 
 Time to visit the tribe.
 
+```
 > climb stairs
 > enter temple
 > go south
 > go clearing
 > go valley
 > go path
+```
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 The tribe and the carver
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+------------------------
 
+```
 > show drawing to carver
+```
 
 He wants payment in the form of a hen. There is a hen wandering aroung the
 tribe, but it is too quick to catch. You need a trap. Your guide, Rom, has one.
 
+```
 > go path
 > go clearing
 > go path
 > go shore
 > ask rom for trap
 > give yam to rom
+```
 
 Now return to the tribe.
 
+```
 > go path
 > go clearing
 > go valley
 > go path
+```
 
 Set the trap to catch the chicken.
 
+```
 > drop trap
 > put seed in trap
 > set the trap
 > wait (until the hen enters the trap)
 > pull the string
+```
 
 Give the carver his payment.
 
+```
 > take hen from trap
 > give hen to carver
 > give drawing to him
 > wait
 > get sun key
+```
 
 Now return to the temple. We need to refuel our torch, and get the heavy stone egg.
 
+```
 > go path
 > go clearing
 > go path
@@ -431,24 +471,29 @@ Now return to the temple. We need to refuel our torch, and get the heavy stone e
 > take stone egg
 > exit north
 > enter alcove
+```
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 The underground tomb
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+--------------------
 
 Use the sun key replica to lower the stone column.
 
+```
 > put key in hole
 > turn key
 > again (until it wont turn any more)
+```
 
 Place the heavy stone egg on the altar, to bypass the pressure plate booby trap.
 
+```
 > put stone egg on altar
 > take golden egg
+```
 
 Now return to the shore and get back in the canoe.
 
+```
 > climb stairs
 > enter temple
 > exit south

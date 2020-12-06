@@ -1,9 +1,9 @@
 ---
 layout: project
 title: "Dr. Ego's Adventure"
-description: "A jungle themed adventure interactive fiction story."
+description: "A jungle adventure in interactive fiction."
 thumb: /projects/dregosadventure/thumb.png
-links: ["Download (.z5 file)", "http://ifarchive.org/if-archive/games/competition2020/Games/Dr%20Ego%20and%20the%20egg%20of%20ManToomba/DrEgoAdv.z5", "IFDB Page", "https://ifdb.tads.org/viewgame?id=8vl45slqoqhxyucn", "Source Code", "https://github.com/wesleywerner/dregosadv"]
+links: ["Download (.z5 file)", "http://ifarchive.org/if-archive/games/competition2020/Games/Dr%20Ego%20and%20the%20egg%20of%20ManToomba/DrEgoAdv.z5", "Play Online", "https://iplayif.com/?story=http%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Fcompetition2020%2FGames%2FDr%2520Ego%2520and%2520the%2520egg%2520of%2520ManToomba%2FDrEgoAdv.z5", "IFDB Page", "https://ifdb.tads.org/viewgame?id=8vl45slqoqhxyucn", "Source Code", "https://github.com/wesleywerner/dregosadv"]
 status: stable
 ---
 
@@ -16,21 +16,33 @@ status: stable
 > I met my guide and his canoe, who will take me to a remote and uncharted
 > area in Papua New Guinea. It is here that I hope to find the legendary 
 > Golden Egg of Man-Toomba.
-> 
-> Dr Ego and the egg of Man-Toomba
-> An Interactive Fiction Story 
-> by Special Agent.
-> Release 3 / Serial number 400410 / Inform v6.33 Library v6.12.3pre 
+
+----
 
 You are Dr Ego, Adventurous Archeologist. You travel to New Guinea looking for a famed artifact.
 
-You can play the story using a Z-Machine interpreter, or [play it online](http://iplayif.com/?story=http%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Fcompetition2020%2FGames%2FDr%2520Ego%2520and%2520the%2520egg%2520of%2520ManToomba%2FDrEgoAdv.z5) (recommended for desktop only).
+Desktop PC Instructions
+-----------------------
 
-To play on Android I suggest using the [Text Fiction](https://textfiction.onyxbits.de/) mobile app. The web version on your mobile may be a frustrating experience.
+To play the story you need a Z-Machine interpreter. You can use [Gargoyle](http://ccxvii.net/gargoyle/).
 
-The story is written in Inform version 6.
+You can also [play it online](https://iplayif.com/?story=http%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Fcompetition2020%2FGames%2FDr%2520Ego%2520and%2520the%2520egg%2520of%2520ManToomba%2FDrEgoAdv.z5). To save your progress type "SAVE".
+
+Android Mobile Instructions
+---------------------------
+
+I suggest using the [Text Fiction](https://textfiction.onyxbits.de/) mobile app.
+
+- Install Text Fiction
+- Download the z5 story file from your phone
+- Open the Text Fiction app
+- Tap the three-dot menu icon then tap Import
+
+Text Fiction auto saves your progress. To resume your story, tap the plus icon (lower left).
+
+The online version is playable on mobile, but it can be a frustrating user experience and saving you progress does not work on mobile.
 
 Awards
 ------
 
-Written for and placed 44th in the 26th Annual Interactive Fiction Competition (2020).
+Written for and placed 44th in the [26th Annual Interactive Fiction Competition (2020)](https://ifdb.tads.org/viewcomp?id=zkwmnr8k90q7wb2).
