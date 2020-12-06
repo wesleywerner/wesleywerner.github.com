@@ -8,10 +8,20 @@ Developers like us keep a journal of progress made on our projects, things learn
 
 The main premise are Project Pages, each which may have changelogs associated, development notes or devlogs attached.
 
-## Quick Start
+## Quick Start Installation
 
 * [Install Ruby and Jekyll](https://jekyllrb.com/docs/)
-* Exec `jekyll serve`, the localhost URL will be printed to stdout.
+* Ensure zlib development headers are installed, `apt-get install zlib1g-dev`
+* Install bundler, `gem install bundler`
+* Install Jekyll and supporting gems, `bundle install`
+
+### Building the site
+
+`bundle exec jekyll build` writes the generated site into `_site`.
+
+### Serving in development mode
+
+* `bundle exec jekyll serve`, the localhost URL will be printed to stdout.
 
 ```
 $ jekyll serve
