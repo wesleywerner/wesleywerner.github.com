@@ -92,7 +92,7 @@ layout: project
 title: "FizzBuzz"
 description: "Prints fizz, buzz or fizzbuzz."
 thumb: /projects/fizzbuzz/thumb.png
-links: ["title 1", "https://example.com", "title 2", "https://example.com]
+links: ["title 1", "https://example.com", "title 2", "https://example.com"]
 status: prototype
 ---
 ```
