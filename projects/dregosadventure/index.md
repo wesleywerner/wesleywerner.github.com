@@ -38,9 +38,9 @@ I suggest using the [Text Fiction](https://textfiction.onyxbits.de/) mobile app.
 - Open the Text Fiction app
 - Tap the three-dot menu icon then tap Import
 
-Text Fiction auto saves your progress. To resume your story, tap the plus icon (lower left).
+Text Fiction auto saves your progress. To resume your story, tap the game menu (+ icon) then tap `Restore`.
 
-The online version is playable on mobile, but it can be a frustrating user experience and saving you progress does not work on mobile.
+The online version is playable on mobile but can be a frustrating experience, and saving progress does not work on mobile.
 
 Awards
 ------
