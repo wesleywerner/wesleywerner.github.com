@@ -24,8 +24,8 @@ ul:not(.browser-default)>li {
   padding-left: 1em;
 }
 
-/* 
-  scale images with crisp edges - ideal for pixel art 
+/*
+  scale images with crisp edges - ideal for pixel art
   */
 .pixelated {
   -ms-interpolation-mode: nearest-neighbor;
@@ -57,6 +57,7 @@ body {
 
 code {
   font-family: 'Roboto Mono', monospace;
+  background: grey;
 }
 
 /*
